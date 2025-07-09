@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Skyrim+ Installation Guide</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto:400,400i,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background:
+        url('https://i.redd.it/1xjv6ju5rkkb1.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #222;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 800px;
+      margin: 3em auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(44,62,80,0.08);
+      padding: 2.5em 2em 2em 2em;
+    }
+    h1 {
+      font-family: 'Montserrat', Arial, sans-serif;
+      color: #f14ce4;
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+    h2 {
+      color: #2c3e50;
+      margin-top: 2em;
+      border-bottom: 2px solid #eaf6fb;
+      padding-bottom: 0.3em;
+      font-size: 1.4em;
+    }
+    h3 {
+      color: #2c3e50;
+      margin-top: 1.5em;
+      font-size: 1.2em;
+    }
+    ul, ol {
+      margin-left: 2em;
+      margin-bottom: 1em;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 1em;
+      color: #c0392b;
+    }
+    a {
+      color: #6aa4e6;
+      text-decoration: underline; /* Underline all hyperlinks */
+      transition: color 0.2s;
+    }
+    a:hover {
+      color: #1a5276;
+      text-decoration: underline;
+    }
+    hr {
+      margin: 2.5em 0 2em 0;
+      border: none;
+      border-top: 2px solid #eaf6fb;
+    }
+    .footer {
+      text-align: center;
+      color: #888;
+      font-size: 1em;
+      margin-top: 2em;
+    }
+    .step-title {
+      font-weight: bold;
+      color: #0a0a0a;
+      font-size: 1.1em;
+    }
+    .credits-list {
+      display: flex;
+      gap: 2em;
+      flex-wrap: wrap;
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+    }
+    .credits-list li {
+      margin: 0;
+    }
+    .table-wrapper {
+      overflow-x: auto;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 1.5em;
+    }
+    th, td {
+      border: 1px solid #eaeaea;
+      padding: 0.5em 1em;
+      text-align: center;
+    }
+    th {
+      background: #f0f6fa;
+    }
+    .important, .warning {
+      background: #fff3cd;
+      border-left: 4px solid #ffe066;
+      padding: 1em;
+      margin: 1em 0;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 1em 0.5em;
+      }
+      h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Skyrim+ Installation Guide</h1>
+    <p>
+      This guide will help you install the modlist using
+      <a href="https://www.wabbajack.org/" target="_blank">Wabbajack</a>.
+    </p>
+    
+    <h2>Introduction</h2>
+    <p>
+        <p>Skyrim+ is a mod list for the Anniversary Edition of Skyrim that enhances the original feel while providing tons of bug and performance fixes, as well as light visual mods that enhance the characters and non-player characters (NPCs). It avoids conflicts and script-heavy mods as much as possible.</p>
+        <p>I've added many quest and new land mods, such as Wyrmstooth, Beyond Skyrim, and Faalskar.</p>
+        <p>New animations were added for first and third person, while keeping the vanilla combat untouched. The ice skating issues have been fixed.</p>
+        <p>Magic has been enhanced with new spells, and the vanilla spells have been rebalanced with mysticism magic to give the game a similar feel to previous entries in the series.</p>
+        <p>The emphasis is on your ability to play from beginning to end without worrying about bugs or crashes while experiencing as much content as possible.</p>
+        <p>You can check the full list <a href="https://loadorderlibrary.com/lists/skyrim-5312054" target="_blank">here</a></p>  
+    </p>
+
+    <!-- Support & Community Buttons -->
+    <div style="margin: 2em 0; display: flex; gap: 1em; flex-wrap: wrap;">
+      <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+      <script type='text/javascript'>
+        kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'K3K116XAYR');
+        kofiwidget2.draw();
+      </script>
+      <a href="https://patreon.com/user?u=3502847&utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" target="_blank" style="background:#ff424d;color:#fff;padding:0.75em 1.5em;border-radius:6px;text-decoration:none;font-weight:bold;box-shadow:0 2px 8px rgba(0,0,0,0.08);transition:background 0.2s;">Support me on Patreon</a>
+      <a href="https://discord.gg/rvRxnSa3" target="_blank" style="background:#5865f2;color:#fff;padding:0.75em 1.5em;border-radius:6px;text-decoration:none;font-weight:bold;box-shadow:0 2px 8px rgba(0,0,0,0.08);transition:background 0.2s;">Join Discord</a>
+      <div id="kofi-button"></div>  
+    </div>
+    
+
+    <h2 id="system-requirements">System Requirements</h2>
+    <h3>Disclaimer</h3>
+    <p>Owing to the need to clean master files and certain errors with Wabbajack, Skyrim+ only supports <strong>English Steam</strong> versions of Skyrim Anniversary Edition. <strong>GOG and other Languages are not supported</strong>. The version is 1.6.1170.</p>
+  
+    <p>Only Windows 10 and 11 work with Wabbajack fully. LTSC, special variants, lightened editions or any other modified variant <strong>WILL NOT WORK</strong>. Your Windows version <strong>must be 21H2 or newer</strong> to run both Wabbajack and Skyrim+.</p>
+
+    <h3>Recommended System Requirements</h3>
+    <p>Skyrim+ only modifies character textures and looks, along with Community shaders, Azurite weathers III, placed lights and window shadows. The remaining addons are SMIM and similar, SMP and fur shaders. The recommended specs below are based on using community shaders or not basically, so if it's not running smooth, you can safely disable it along with it's addons</p>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Component</th>
+            <th>Minimum for 1080p (Full HD Non-Ultrawide) Standard Profile</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>CPU</td><td>Intel Core i5-7400 / AMD Ryzen 3 1200 or better</td></tr>
+          <tr><td>RAM</td><td>16GB DDR4 RAM + 40GB Pagefile(If you have the space to spare, do it, for stability sake.)</td></tr>
+          <tr><td>Storage</td><td>SATA SSD is preferred, for faster loading times</td></tr>
+          <tr><td>GPU</td><td>NVIDIA GTX 1060 6GB / AMD Radeon RX 580 8GB or better</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Component</th>
+            <th>Minimum for 1080p (Full HD Non-Ultrawide) Standard Profile with Community shaders disabled</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>CPU</td><td>Intel Core i5-4570 / AMD FX-8350 or better</td></tr>
+          <tr><td>RAM</td><td>8GB DDR4 RAM + 20GB Pagefile(If you have the space to spare, do it, for stability sake.)</td></tr>
+          <tr><td>Storage</td><td>SATA SSD is preferred, for faster loading times</td></tr>
+          <tr><td>GPU</td><td>NVIDIA GTX 970 4GB / AMD RX 570 4GB or better</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p><strong>Space Required:</strong> 60GB Download Size ~120GB install Size ~180GB Total</p>
+    <blockquote class="warning">
+      See how to setup a page file <a href="https://www.tomshardware.com/news/how-to-manage-virtual-memory-pagefile-windows-10,36929.html">here</a>
+    </blockquote>
+    
+
+    <h2 id="installation">Installation</h2>
+
+    <h3 id="pre-installation">Pre-Installation</h3>
+    <p>Prior to installing Skyrim+, please complete the following steps.</p>
+    <ol>
+      <li>Install <a href="https://aka.ms/vs/17/release/vc_redist.x64.exe">Visual C++ x64</a></li>
+      <li>Install BOTH <a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.36-windows-x64-installer">.Net Runtime v6 desktop x64</a> &amp; <a href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-9.0.6-windows-x64-installer">.Net Runtime v9 desktop x64</a> then RESTART YOUR PC</li>
+      <li>Change Skyrim so it does not <a href="https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable">automatically update</a>.</li>
+      <li>Fully uninstall Skyrim by deleting the folder and the Skyrim Special Edition folder inside <code>\Documents\My Games</code>.</li>
+      <li>Fully disable OneDrive and any other programs which hook into user file areas.</li>
+      <li>Reinstall Skyrim into a location that is not Program Files. Somewhere like <code>C:\Games</code> is a good location. If you only have one drive, look into LostDragonist’s <a href="https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide">SteamLibrary tool</a>.</li>
+      <li>Start the game once and let it do the graphics check. Do not worry about the settings as it will be replaced during installation.</li>
+      <li>Launch the game to the main menu and allow it to download the paid addon files. <strong>DO NOT VERIFY YOUR GAME FILES.</strong> If you are having trouble with installing Creation Club content checkout our <a href="https://lorerim.com/support/missing-downloads/">missing downloads guide</a></li>
+      <li>Remove/Disable any 3rd party antivirus such as MalwareBytes or Webroot. These <strong>will</strong> mess with the installation and, in the case of the latter, cause more problems than it solves.</li>
+    </ol>
+
+    <h3 id="wabbajack-installation">Wabbajack Installation</h3>
+    <h4>Installing Wabbajack</h4>
+    <p>Once you have completed pre-installation, download the <a href="https://github.com/wabbajack-tools/wabbajack/releases">latest version of Wabbajack</a> and place it in a folder such as <code>C:\Games\Wabbajack</code>. Do not place it in Program Files, on your desktop, or in your downloads folder. I recommend placing it on an SSD as it will work quicker on there.</p>
+
+
+    <h4>Downloading and Installing Skyrim+</h4>
+    <ol>
+      <li>Download the latest Skyrim+ Wabbajack file from Nexusmods <a href="https://www.nexusmods.com/skyrimspecialedition/mods/154341?tab=files" target="_blank"><strong>HERE</strong></a></li>
+      <li>Open Wabbajack and click on browse modlists.</li>
+      <li>Click on "Install from disk" button</li>
+      <li>Navigate to the folder where you downloaded the Skyrim+ Wabbajack file and select it.</li>
+      <li>Set the installation folder to be somewhere like C:\SkyrimPlus. <strong>Do not install it to your desktop or downloads folder.</strong></li>
+      <li>The download location does not need to be on a SSD but it makes installing a bit faster.</li>
+      <li>Press the install button to begin.</li>
+      <li>If the installation is successful, you are ready to go.</a>. If the installation is unsuccessful, follow what is below.</li>
+    </ol>
+
+    <h5>Problems with installation</h5>
+    <ul>
+      <li>Could not download x:
+        <ul>
+          <li>Big files can fail to download due to connection issues. You can either run Wabbajack again or download the file manually. If you decide to manually download it, make sure to place it in the same place as the other downloads.</li>
+          <li><strong>Make sure you have downloaded all the Paid AE update content!</strong></li>
+        </ul>
+      </li>
+      <li>Wabbajack could not find my game folder:
+        <ul>
+          <li>Either buy the game or go back to the <a href="#pre-installation">Pre-Installation</a> step.</li>
+        </ul>
+      </li>
+      <li>Antivirus reports a virus:
+        <ul>
+          <li>You did not follow the steps in <a href="#pre-installation">Pre-Installation</a>. Go back and follow it.</li>
+          <li>Again, as listed in the previous steps: I recommend temporarily disabling Windows Defender during the download process if you get a false positive for DyndoLOD. DyndoLOD is safe, it is NOT a Trojan. Either that, or add an exception to the download path.</li>
+          <li>If you have followed it then you can fix this by <a href="https://www.thewindowsclub.com/exclude-a-folder-from-windows-security-scan">adding an exclusion for Mod Organizer in Windows Defender</a>.</li>
+        </ul>
+      </li>
+    </ul>
+
+    
+    <h2 id="missing-manual-downloads">Missing Manual Downloads</h2>
+    <p>
+      Installing creation club content should be as simple as booting up Skyrim and letting it install your creation club content. But you may fall victim to Bethesda’s terrible system and be missing some content. Content needed to download this list as this list requires the <strong>Anniversary Edition Creation Club content</strong>.
+    </p>
+
+    <h3 id="how-to-resolve">How to resolve</h3>
+    <ol>
+      <li>
+        <strong>Ensure you own the Anniversary Edition Upgrade DLC for Skyrim Special Edition.</strong><br>
+        This is a necessary requirement for Lorerim. You can confirm this by checking your Steam game properties and then the DLC tab.
+        <div class="important">
+          If your copy of Skyrim SE is shared from someone else’s Steam account via family sharing, you won’t be able to download the AE CC content.
+        </div>
+      </li>
+      <li>
+        <strong>Make sure you’ve installed the Creation Club content.</strong><br>
+        This requires booting up to the Skyrim main menu, at which point you should be prompted to download the content. If you do not get this option, or nothing happens when clicking it, you can trigger the download by doing the following:
+        <ol>
+          <li>Select Creations from the main menu.</li>
+          <li>Press for options.</li>
+          <li>Click “Download all owned Creation Club Creations”.</li>
+        </ol>
+        <div class="warning">
+          <strong>Do not Alt-Tab or otherwise leave the game window while the download is ongoing.</strong> Doing so is likely to cause the download to stop or skip files.
+        </div>
+      </li>
+      <li>
+        <strong>Run Wabbajack once more, going through the same steps as on the initial install attempt.</strong><br>
+        Before hitting run however, tick overwrite installation. This will identify the existing files you already downloaded and continue where you left off with the install.
+      </li>
+    </ol>
+
+    <h3 id="troubleshooting">Troubleshooting</h3>
+    <p><strong>I downloaded all of the content but it still says some files are missing.</strong> There are two common causes for this.</p>
+    <ul>
+      <li>
+        The first is that you may have the wrong version of some of the files. These can be seen in the Skyrim Data folder, where some of them have a capital letter instead of lowercase (for example: <code>ccbgssse037-Curios.esi</code> instead of <code>ccbgssse037-curios.esi</code>).
+        <br>
+        For this, go to your Skyrim Special Edition/Data folder, and delete all files that begin with <code>cc</code> (do not delete <code>skyrim.ccc</code>) and then boot the game again, you should be prompted with the option to download everything once more.
+      </li>
+      <li>
+        <strong>If you have tried everything suggested above and you are still missing some files</strong><br>
+        You may just be a victim of Bethesda’s terrible system. You can try verifying the game files in Steam to reset the game and download all the content again from in-game.
+      </li>
+      <li>
+        If nothing else works but you are able to get the missing manuals down to a small amount, you can use the UESP CK wiki to look up the corresponding creation for each missing manual:<br>
+        <a href="https://ck.uesp.net/wiki/Creation_Club_Content_by_Filename" target="_blank">ck.uesp.net/wiki/Creation_Club_Content_by_Filename</a>
+      </li>
+    </ul>
+
+    <h3>Stock Game &amp; Root Builder</h3>
+    <p>Skyrim+ utilizes a Wabbajack technology called Stock Game. What this essentially does is create a copy of your Skyrim installation within the installation location of the list. This enables greater compatibility with other mod-lists.</p>
+    <p>Skyrim+ also utilizes Root Builder alongside Stock Game to enable easier management of hooks such as ENB, Reshade, and Engine Fixes. Please see our guide to <a href="https://github.com/The-Animonculory/Modding-Resources/blob/main/Root%20Builder%20for%20Skyrim%20AE.md">Root Builder</a> for more details.</p>
+
+    <h2>Credits</h2>
+    <ul class="credits-list">
+      <li><a href="https://www.wabbajack.org/" target="_blank">Wabbajack Team</a></li>
+      <li>Mod authors and contributors</li>
+    </ul>
+
+    <hr>
+    <div class="footer">
+      For more help, visit the <a href="https://discord.gg/wabbajack" target="_blank">Wabbajack Discord</a>.
+    </div>
+  </div>
+</body>
+</html>
