@@ -23,7 +23,7 @@ You can check the full list [here](https://loadorderlibrary.com/lists/skyrim-531
 ## Support & Community
 
 - [Support me on Patreon](https://patreon.com/user?u=3502847&utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
-- [Join Discord](https://discord.gg/rvRxnSa3)
+- [Join Discord](https://discord.gg/V3QyXVNUUv)
 - [Support me on Ko-fi](https://ko-fi.com/K3K116XAYR)
 
 ---
@@ -92,10 +92,11 @@ Once you have completed pre-installation, download the [latest version of Wabbaj
 2. Open Wabbajack and click on browse modlists.
 3. Click on "Install from disk" button
 4. Navigate to the folder where you downloaded the Skyrim+ Wabbajack file and select it.
-5. Set the installation folder to be somewhere like `C:\SkyrimPlus`. **Do not install it to your desktop or downloads folder.**
-6. The download location does not need to be on a SSD but it makes installing a bit faster.
-7. Press the install button to begin.
-8. If the installation is successful, you are ready to go. If the installation is unsuccessful, follow what is below.
+5. Alternatively, you can download it from Wabbajack's GUI by ticking the "Non-featured"option and browsing for Skyrim+ or by using the search bar
+6. Set the installation folder to be somewhere like `C:\SkyrimPlus`. **Do not install it to your desktop or downloads folder.**
+7. The download location does not need to be on a SSD but it makes installing a bit faster.
+8. Press the install button to begin.
+9. If the installation is successful, you are ready to go. If the installation is unsuccessful, follow what is below.
 
 #### Problems with installation
 
