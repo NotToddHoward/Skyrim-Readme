@@ -49,12 +49,12 @@ Skyrim+ only modifies character textures and looks, along with Community shaders
 | Storage   | SATA SSD is preferred, for faster loading times |
 | GPU       | NVIDIA GTX 1060 6GB / AMD Radeon RX 580 8GB or better |
 
-#### Minimum for 1080p (Full HD Non-Ultrawide) Standard Profile with Community shaders disabled
+#### Minimum for 1080p (Full HD Non-Ultrawide) Ultra Potato profile
 
 | Component | Requirement |
 |-----------|-------------|
 | CPU       | Intel Core i5-4570 / AMD FX-8350 or better |
-| RAM       | 8GB DDR4 RAM + 20GB Pagefile (If you have the space to spare, do it, for stability sake.) |
+| RAM       | 8GB DDR4 RAM + 40GB Pagefile (If you have the space to spare, do it, for stability sake.) |
 | Storage   | SATA SSD is preferred, for faster loading times |
 | GPU       | NVIDIA GTX 970 4GB / AMD RX 570 4GB or better |
 
